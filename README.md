@@ -18,7 +18,7 @@ replace myAppId and myMasterKey with your actual app id and master key, commit a
 ### With OpenShift Client Tools(RHC)
 
 ```
-rhc app create parseaio http://cartreflect-claytondev.rhcloud.com/github/icflorescu/openshift-cartridge-nodejs http://cartreflect-claytondev.rhcloud.com/github/icflorescu/openshift-cartridge-mongodb --from-code https://github.com/billymwlei/parse-server-example --env
+rhc app create parserhc http://cartreflect-claytondev.rhcloud.com/github/icflorescu/openshift-cartridge-nodejs http://cartreflect-claytondev.rhcloud.com/github/icflorescu/openshift-cartridge-mongodb --from-code https://github.com/billymwlei/parse-server-example --env
 ```
 ### This is a fork of parse-server-example
 
